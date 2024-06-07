@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<!-- patch='inlet' time='2.85' index='5700' -->
+<VTKFile type='PolyData' version='0.1' byte_order='LittleEndian' header_type='UInt64'>
+  <PolyData>
+    <FieldData>
+      <DataArray type='Float32' Name='TimeValue' NumberOfTuples='1' format='binary'>
+BAAAAAAAAABmZjZA
+      </DataArray>
+    </FieldData>
+    <Piece NumberOfPoints='4' NumberOfPolys='1'>
+      <Points>
+        <DataArray type='Float32' Name='Points' NumberOfComponents='3' format='binary'>
+MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM3MzD0AAAAAzczMPc3MzD0AAAAAzczMPQAAAAA=
+        </DataArray>
+      </Points>
+      <Polys>
+        <DataArray type='Int32' Name='connectivity' format='binary'>
+EAAAAAAAAAAAAAAAAQAAAAIAAAADAAAA
+        </DataArray>
+        <DataArray type='Int32' Name='offsets' format='binary'>
+BAAAAAAAAAAEAAAA
+        </DataArray>
+      </Polys>
+      <CellData>
+        <DataArray type='Float32' Name='DT' format='binary'>
+BAAAAAAAAAAAAIA/
+        </DataArray>
+        <DataArray type='Float32' Name='T' format='binary'>
+BAAAAAAAAAAAQA9E
+        </DataArray>
+        <DataArray type='Float32' Name='gradTx' format='binary'>
+BAAAAAAAAAAAgDrD
+        </DataArray>
+        <DataArray type='Float32' Name='gradTy' format='binary'>
+BAAAAAAAAAAAAAAA
+        </DataArray>
+        <DataArray type='Float32' Name='gradTz' format='binary'>
+BAAAAAAAAAAAAAAA
+        </DataArray>
+        <DataArray type='Float32' Name='flux' NumberOfComponents='3' format='binary'>
+DAAAAAAAAAAAgDrDAAAAAAAAAAA=
+        </DataArray>
+      </CellData>
+      <PointData>
+        <DataArray type='Float32' Name='DT' format='binary'>
+EAAAAAAAAAAAAIA/AACAPwAAgD8AAIA/
+        </DataArray>
+        <DataArray type='Float32' Name='T' format='binary'>
+EAAAAAAAAAAAQA9EAEAPRABAD0QAQA9E
+        </DataArray>
+        <DataArray type='Float32' Name='gradTx' format='binary'>
+EAAAAAAAAAAAgDrDAIA6wwCAOsMAgDrD
+        </DataArray>
+        <DataArray type='Float32' Name='gradTy' format='binary'>
+EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </DataArray>
+        <DataArray type='Float32' Name='gradTz' format='binary'>
+EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </DataArray>
+        <DataArray type='Float32' Name='flux' NumberOfComponents='3' format='binary'>
+MAAAAAAAAAAAgDrDAAAAAAAAAAAAgDrDAAAAAAAAAAAAgDrDAAAAAAAAAAAAgDrDAAAAAAAAAAA=
+        </DataArray>
+      </PointData>
+    </Piece>
+  </PolyData>
+</VTKFile>

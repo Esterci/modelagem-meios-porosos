@@ -1,0 +1,339 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _e651d635-20240208 OPENFOAM=2312 patch=240220 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToEnsight -noZero
+Date   : Jun 06 2024
+Time   : 21:04:54
+Host   : thiago-VivoBook-ASUSLaptop-E510MAB-E510MAB
+PID    : 100237
+I/O    : uncollated
+Case   : /home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-monofasico
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+internal: true
+cellZones: true
+boundary: true
+faceZones: false
+Create time
+
+Initial memory 117600 kB
+Create mesh for time = 0.05
+
+Converting 60 time steps
+Search for moving mesh ... none detected.
+Search for lagrangian ... none detected.
+Startup in 0.03 s, 117704 kB
+
+Time [100] = 0.05
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [200] = 0.1
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [300] = 0.15
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [400] = 0.2
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [500] = 0.25
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [600] = 0.3
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [700] = 0.35
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [800] = 0.4
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [900] = 0.45
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1000] = 0.5
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [1100] = 0.55
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1200] = 0.6
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1300] = 0.65
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [1400] = 0.7
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1500] = 0.75
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1600] = 0.8
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [1700] = 0.85
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1800] = 0.9
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [1900] = 0.95
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [2000] = 1
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [2100] = 1.05
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [2200] = 1.1
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [2300] = 1.15
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [2400] = 1.2
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [2500] = 1.25
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [2600] = 1.3
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [2700] = 1.35
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [2800] = 1.4
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [2900] = 1.45
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3000] = 1.5
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3100] = 1.55
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3200] = 1.6
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3300] = 1.65
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [3400] = 1.7
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [3500] = 1.75
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3600] = 1.8
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3700] = 1.85
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [3800] = 1.9
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [3900] = 1.95
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [4000] = 2
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [4100] = 2.05
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [4200] = 2.1
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [4300] = 2.15
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [4400] = 2.2
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [4500] = 2.25
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [4600] = 2.3
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [4700] = 2.35
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [4800] = 2.4
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [4900] = 2.45
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [5000] = 2.5
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [5100] = 2.55
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [5200] = 2.6
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [5300] = 2.65
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [5400] = 2.7
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [5500] = 2.75
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [5600] = 2.8
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [5700] = 2.85
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [5800] = 2.9
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+Time [5900] = 2.95
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0.01 s, 117704 kB
+
+Time [6000] = 3
+    volume field ( DT T gradTx gradTy gradTz flux )
+    point  field ( )
+Wrote in 0 s, 117704 kB
+
+
+End: 0.26 s, 117736 kB (peak)
+
