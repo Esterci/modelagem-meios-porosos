@@ -16,28 +16,63 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-3
+8
 (
-    inlet
+    inlet1
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          1;
-        startFace       44;
+        nFaces          80;
+        startFace       66820;
     }
-    outlet
+    inlet2
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          1;
-        startFace       45;
+        nFaces          80;
+        startFace       66900;
+    }
+    inlet3
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          80;
+        startFace       66980;
+    }
+    left
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          160;
+        startFace       67060;
+    }
+    right
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          80;
+        startFace       67220;
+    }
+    up
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          140;
+        startFace       67300;
+    }
+    down
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          140;
+        startFace       67440;
     }
     emptyWalls
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          180;
-        startFace       46;
+        nFaces          67200;
+        startFace       67580;
     }
 )
 

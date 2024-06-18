@@ -22,12 +22,37 @@ internalField   uniform 0;
 
 boundaryField
 {
-    inlet
+    inlet1
     {
         type            calculated;
         value           uniform 0;
     }
-    outlet
+    inlet2
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    inlet3
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    left
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    right
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    up
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    down
     {
         type            calculated;
         value           uniform 0;

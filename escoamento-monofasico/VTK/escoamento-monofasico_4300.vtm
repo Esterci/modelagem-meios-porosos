@@ -4,8 +4,13 @@
   <vtkMultiBlockDataSet>
     <DataSet name='internal' file='escoamento-monofasico_4300/internal.vtu' />
     <Block name='boundary'>
-      <DataSet name='inlet' file='escoamento-monofasico_4300/boundary/inlet.vtp' />
-      <DataSet name='outlet' file='escoamento-monofasico_4300/boundary/outlet.vtp' />
+      <DataSet name='inlet1' file='escoamento-monofasico_4300/boundary/inlet1.vtp' />
+      <DataSet name='inlet2' file='escoamento-monofasico_4300/boundary/inlet2.vtp' />
+      <DataSet name='inlet3' file='escoamento-monofasico_4300/boundary/inlet3.vtp' />
+      <DataSet name='left' file='escoamento-monofasico_4300/boundary/left.vtp' />
+      <DataSet name='right' file='escoamento-monofasico_4300/boundary/right.vtp' />
+      <DataSet name='up' file='escoamento-monofasico_4300/boundary/up.vtp' />
+      <DataSet name='down' file='escoamento-monofasico_4300/boundary/down.vtp' />
     </Block>
   </vtkMultiBlockDataSet>
   <FieldData>
