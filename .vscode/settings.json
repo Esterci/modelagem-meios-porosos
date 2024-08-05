@@ -1,7 +1,9 @@
 {
     "files.associations": {
-        "*.embeddedhtml": "html",
         "*.vue": "vue",
-        "thiFoam.C": "cpp"
+        "*.embeddedhtml": "html",
+        "thiFoam.C": "cpp",
+        "thiImpEs.C": "cpp",
+        "impesFoam.C": "cpp"
     }
 }

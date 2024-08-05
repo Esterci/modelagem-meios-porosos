@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
         {
             fvScalarMatrix TEqn
             (
-                fvm::laplacian(DT, T)
+                fvm::laplacian(DT, T)-Foam::sqrt(T)
              ==
                 fvOptions(T)
             );

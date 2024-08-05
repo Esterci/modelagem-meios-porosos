@@ -8,12 +8,12 @@
 Build  : _e651d635-20240208 OPENFOAM=2312 patch=240220 version=2312
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
-Date   : Jun 14 2024
-Time   : 09:24:03
-Host   : thiago-MS-7D20
-PID    : 10576
+Date   : Aug 02 2024
+Time   : 15:20:16
+Host   : thiago-VivoBook-ASUSLaptop-E510MAB-E510MAB
+PID    : 13766
 I/O    : uncollated
-Case   : /home/thiago/Documentos/GitHub/modelagem-meios-porosos/escoamento-monofasico
+Case   : /home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-monofasico
 nProcs : 1
 trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
