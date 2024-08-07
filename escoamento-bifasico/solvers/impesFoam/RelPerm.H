@@ -15,7 +15,7 @@ volScalarField correct_krw(const volScalarField Sw){
     double krwMax = 0.5;
     double a = 8;
 
-    volScalarField Se = (Sw-Swc)/(1.0-Sw-Sor);
+    volScalarField Se = (Sw-Swc)/(1.0-Swc-Sor);
 
     // printField(Se);
 
@@ -35,7 +35,7 @@ volScalarField correct_kro(const volScalarField Sw){
     double kroMax = 1.0;
     double b = 3;
 
-    volScalarField Se = (Sw-Swc)/(1.0-Swi-Sor);
+    volScalarField Se = (Sw-Swc)/(1.0-Swc-Sor);
 
     // printField(Se);
     
