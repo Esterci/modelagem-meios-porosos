@@ -1,0 +1,38 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-c96968adf6d8
+Exec   : foamToVTK
+Date   : Aug 07 2024
+Time   : 17:06:04
+Host   : "thiago-VivoBook-ASUSLaptop-E510MAB-E510MAB"
+PID    : 62495
+I/O    : uncollated
+Case   : /home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-bifasico
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time: 0
+    volScalarFields            : fw p Sw
+    volVectorFields            : ut
+
+    Internal  : "/home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-bifasico/VTK/escoamento-bifasico_0.vtk"
+    Original cells:100 points:404   Additional cells:0  additional points:0
+
+    Patch     : "/home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-bifasico/VTK/left/left_0.vtk"
+    Patch     : "/home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-bifasico/VTK/right/right_0.vtk"
+    Patch     : "/home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-bifasico/VTK/emptyFaces1D/emptyFaces1D_0.vtk"
+    surfScalarFields  : phi
+End
+
