@@ -1,0 +1,154 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-c96968adf6d8
+Exec   : impesFoam
+Date   : Aug 07 2024
+Time   : 17:06:03
+Host   : "thiago-VivoBook-ASUSLaptop-E510MAB-E510MAB"
+PID    : 62437
+I/O    : uncollated
+Case   : /home/thiago/Documentos/gitHub/modelagem-meios-porosos/escoamento-bifasico
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: No convergence criteria found
+
+Reading field p
+
+Reading field Sw
+
+Reading transportProperties
+
+Reading water dynamic viscosity mu_w
+
+Reading oil dynamic viscosity mu_o
+
+Reading porosity prst
+
+Reading absolute permeability K
+
+No fvModels present
+Time = 0.5
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 1, Final residual = 1.53644e-15, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 1
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.00250248, Final residual = 9.64675e-18, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 1.5
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.00361865, Final residual = 6.29374e-17, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 2
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.177246, Final residual = 1.61518e-16, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 2.5
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.0920207, Final residual = 2.03413e-17, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 3
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.133768, Final residual = 6.64873e-17, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 3.5
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.1406, Final residual = 4.12166e-17, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 4
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.507445, Final residual = 1.8323e-16, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 4.5
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 0.997181, Final residual = 1.17272e-12, No Iterations 1
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 5
+
+
+Calculating p and Sw field
+
+DICPCG:  Solving for p, Initial residual = 1, Final residual = 1.31219e-07, No Iterations 2
+diagonal:  Solving for Sw, Initial residual = 0, Final residual = 0, No Iterations 0
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 5.5
+
+
+Calculating p and Sw field
+
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::sigFpe::sigHandler(int) at ??:?
+#2  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#3  Foam::DICPreconditioner::calcReciprocalD(Foam::Field<double>&, Foam::lduMatrix const&) at ??:?
+#4  Foam::DICPreconditioner::DICPreconditioner(Foam::lduMatrix::solver const&, Foam::dictionary const&) at ??:?
+#5  Foam::lduMatrix::preconditioner::addsymMatrixConstructorToTable<Foam::DICPreconditioner>::New(Foam::lduMatrix::solver const&, Foam::dictionary const&) at ??:?
+#6  Foam::lduMatrix::preconditioner::New(Foam::lduMatrix::solver const&, Foam::dictionary const&) at ??:?
+#7  Foam::PCG::solve(Foam::Field<double>&, Foam::Field<double> const&, unsigned char) const at ??:?
+#8  Foam::fvMatrix<double>::solveSegregated(Foam::dictionary const&) at ??:?
+#9  Foam::fvMatrix<double>::solve(Foam::dictionary const&) in "/home/thiago/OpenFOAM/thiago-9/platforms/linux64GccDPInt32Opt/bin/impesFoam"
+#10  Foam::fvMatrix<double>::solve() in "/home/thiago/OpenFOAM/thiago-9/platforms/linux64GccDPInt32Opt/bin/impesFoam"
+#11  ? in "/home/thiago/OpenFOAM/thiago-9/platforms/linux64GccDPInt32Opt/bin/impesFoam"
+#12  ? in "/lib/x86_64-linux-gnu/libc.so.6"
+#13  __libc_start_main in "/lib/x86_64-linux-gnu/libc.so.6"
+#14  ? in "/home/thiago/OpenFOAM/thiago-9/platforms/linux64GccDPInt32Opt/bin/impesFoam"
+Floating point exception (core dumped)
