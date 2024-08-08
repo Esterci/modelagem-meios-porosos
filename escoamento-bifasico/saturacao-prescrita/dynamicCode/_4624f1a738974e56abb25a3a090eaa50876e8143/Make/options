@@ -1,0 +1,10 @@
+# dynamicCode:
+# SHA1 = 4624f1a738974e56abb25a3a090eaa50876e8143
+
+EXE_INC = -g \
+
+
+LIB_LIBS = \
+    -lOpenFOAM \
+-lmeshTools \
+            -lfiniteVolume

@@ -1,0 +1,15 @@
+FORMAT
+type: ensight gold
+
+GEOMETRY
+model:        1     saturacao-prescrita.0000.mesh
+
+VARIABLE
+
+TIME
+time set:                      1
+number of steps:               1
+filename start number:         0
+filename increment:            1
+time values:
+ 0.00000e+00 
