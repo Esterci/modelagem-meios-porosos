@@ -1,15 +1,13 @@
 /*--------------------------------*- C++ -*----------------------------------*\
-| =========                 |                                                 |
-| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
-|  \\    /   O peration     | Version:  2312                                  |
-|   \\  /    A nd           | Website:  www.openfoam.com                      |
-|    \\/     M anipulation  |                                                 |
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
 {
-    version     2.0;
     format      ascii;
-    arch        "LSB;label=32;scalar=64";
     class       polyBoundaryMesh;
     location    "constant/polyMesh";
     object      boundary;
@@ -21,56 +19,56 @@ FoamFile
     inlet1
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          80;
         startFace       66820;
     }
     inlet2
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          80;
         startFace       66900;
     }
     inlet3
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          80;
         startFace       66980;
     }
     left
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          160;
         startFace       67060;
     }
     right
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          80;
         startFace       67220;
     }
     up
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          140;
         startFace       67300;
     }
     down
     {
         type            wall;
-        inGroups        1(wall);
+        inGroups        List<word> 1(wall);
         nFaces          140;
         startFace       67440;
     }
     emptyWalls
     {
         type            empty;
-        inGroups        1(empty);
+        inGroups        List<word> 1(empty);
         nFaces          67200;
         startFace       67580;
     }
