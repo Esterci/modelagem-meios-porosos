@@ -1,0 +1,84 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+9
+(
+    inlet1
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          10;
+        startFace       1740;
+    }
+    inlet2
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          10;
+        startFace       1750;
+    }
+    inlet3
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          10;
+        startFace       1760;
+    }
+    output1
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          10;
+        startFace       1770;
+    }
+    output2
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          10;
+        startFace       1780;
+    }
+    output3
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          10;
+        startFace       1790;
+    }
+    up
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          30;
+        startFace       1800;
+    }
+    down
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          30;
+        startFace       1830;
+    }
+    emptyWalls
+    {
+        type            empty;
+        inGroups        List<word> 1(empty);
+        nFaces          1800;
+        startFace       1860;
+    }
+)
+
+// ************************************************************************* //
